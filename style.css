@@ -1,0 +1,24 @@
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+h3{
+    background-color:rgb(255, 161, 177);
+    font-size: 25px !important;   
+}
+
+.btn-info:hover{
+    background-color: plum;
+}
+
+@keyframes anime{
+    from { box-shadow: 1px 1px 38px rgb(206, 9, 9);}
+    to { box-shadow: 1px 1px 38px rgb(255, 124, 190);}
+}
+
+canvas{
+    animation-name:anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
